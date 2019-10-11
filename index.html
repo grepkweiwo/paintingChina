@@ -77,39 +77,14 @@
  	
 </style>
 
-	<!-- Global site tag (gtag.js) - Google Ads: 773242616 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-773242616"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-773242616');
-</script>
-
-	<!-- Event snippet for 网页点击下载 conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-773242616/3SocCJSdwJ4BEPj92vAC',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
 
 	
 	
 <script>
 function random_url()
 {
-	gtag_report_conversion("https://at.umtrack.com/D8jOHD?cid=8957&imei={imei}&clickid={clickid}&ip={clickip}");
+		window.location.href = "https://at.umtrack.com/D8jOHD?cid=8957&imei={imei}&clickid={clickid}&ip={clickip}";
+
 }
 </script>
 	
